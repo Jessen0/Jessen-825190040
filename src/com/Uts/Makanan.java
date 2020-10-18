@@ -16,9 +16,5 @@ public class Makanan extends Menu {
         this.tipe = tipe;
     }
 
-    public void Makan(){
-        Makanan a = new Makanan()
-    }
-
 
 }

@@ -1,15 +1,18 @@
 package com.Uts;
 
 public class Menu {
-
-
     private String nama;
     private double harga;
+
+    public Menu(){
+
+    }
 
     public Menu(String nama, double harga) {
         this.nama = nama;
         this.harga = harga;
     }
+
     public String getNama() {
         return nama;
     }
@@ -25,5 +28,6 @@ public class Menu {
     public void setHarga(double harga) {
         this.harga = harga;
     }
+
 
 }
